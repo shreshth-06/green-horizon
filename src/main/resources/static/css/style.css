@@ -1,0 +1,33 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card, .table {
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.btn {
+    border-radius: 50px;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #f1f1f1;
+}
